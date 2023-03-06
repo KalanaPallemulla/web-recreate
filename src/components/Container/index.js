@@ -5,7 +5,7 @@ function Container({ children }) {
   return (
     <>
       <Navbar />
-      <div className="flex justify-center mt-28">{children}</div>
+      <div className="mt-4">{children}</div>
     </>
   );
 }
